@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header-container{
+    background: #272727;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: #fff;
+    font-size: 22px;
+    padding: 15px;
+
+
+}
+.header-container-left{
+
+}
+.logo-img{
+    width: 120px;
+    
+}
+.header-container-right{
+    display: flex;
+
+}
+.item{
+    margin-right: 10px;
+    padding: 7px;;
+
+}
+.item:hover{
+    color: blue;
+    cursor: pointer;
+}
+.banner-container{
+    background-image: url("images/background.png"),linear-gradient(45deg, #4b4b4b,#000);
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+}
+.banner-container-left{
+
+}
+.banner-container-left h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+.banner-container-left p{
+    color: #fff;
+    font-size: 25px;
+    padding: 25px 0px;
+    border: none;
+
+    
+}
+.btn{
+    background-color: rgb(161, 14, 14);
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border: 0px;
+    font-weight: 100;
+}
+.banner-img{
+    width: 350px;
+
+}
+
+.banner-container-right{
+    
+
+}
+.title{
+    font-size: 35px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+.about-container-left{
+    /* text-align: center; */
+   
+    margin-left: 200px;
+    width: 60%;
+    line-height: normal;
+
+
+}
+.about-container-left h3{
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 5px;
+
+}
+.about-container-left p{
+    padding: 0px 0px;
+    line-break: auto;
+    font-size: 20px;
+    width: 60%;
+    
+
+}
+.about-container-right{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    
+}
+.all-services{
+    padding-bottom: 30px;
+
+}
+.servies{
+    display: flex;
+    justify-content: space-around;
+
+}
+.service-1{
+    background: #000;
+    width:300px;
+    height: 350px;
+    text-align: center;
+    color: #fff;
+    box-shadow:20px 20px 50px #979191;
+    
+
+
+}
+.section-img{
+    margin-top: 20px;
+    width: 110px;
+}
+.service-1 h3{
+    padding: 20px 0px;
+
+
+}
+.service-1 p{
+    
+
+}
+.btns{
+    background: #8d8b8b;
+    color: #fff;
+    font-size: 14px;
+    padding:5px 10px ;
+    border: 0px;
+    margin: 15px 0px 20px;
+}
+
